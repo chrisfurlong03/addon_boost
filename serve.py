@@ -26,10 +26,6 @@ def get_models():
         PRICE_MODEL = train_price_elasticity_model(df)
     return PROP_MODEL, PRICE_MODEL
 
-@app.get("/healthz")
-def healthz():
-    return jsonify({"status": "ok"}), 200
-
 @app.post("/warmup")
 def warmup():
     get_models()
