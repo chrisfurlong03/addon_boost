@@ -5,7 +5,7 @@ The intention is to create a reccomendation system that allows for a simplified 
 
 **In order to improve the chance of purchasing, I propose a system that suggests fewer options that are most aligned to the user's specific context. The sketch on the right shows a potential UI for this new system.** It displays only two options, but this allows for richer content like images to be displayed (improving product understanding). 
 
->The XGBoost model also tries to identify if discounts can be offered and these can be highlighted in the new UI to attract attention. Don't mind the error, I meant to write $225 as the discounted price :)
+>The XGBoost model also tries to identify if discounts can be offered and these can be highlighted in the new UI to attract attention. Don't mind the error, I meant to write $225 as the discounted price :D
 
 ![Alt text](images/Frame%202%20from%20Figma.png)
 
